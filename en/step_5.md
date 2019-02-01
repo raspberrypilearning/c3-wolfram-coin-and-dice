@@ -1,32 +1,33 @@
-## Challenge: Build a Manipulate
+## Building An Interface
 
-Build a `Manipulate` function which allows the user to roll between 1 and 6 dice at the same time.
+Now that we have two buttons, one which flips a coin and one which rolls a die, we can combine them into an interface.
+We can construct this using `Grid`.
+Look at this example of `Grid`.
 
-![Complete](images/Complete.png)
+![Grid](images/Grid.png)
 
---- hints ---
---- hint ---
-Look up how `Manipulate` is used in the documentation.
+`Grid` is made up of a list of lists, where each list becomes a row in the grid.
 
-```Manipulate[expression,{u,minimum u, maximum u, size of steps}]```
+--- task ---
 
-Replace `expression` with your code for the `RandomChoice`. You don't need to include a `Button`.
---- /hint---
---- hint ---
-You should have created a `Manipulate` with a slider to change the number of dice.
-Look in the documentation for `Manipulate` to work out how to change the `Control Type` to a `Radio Button`.
+Make a `Grid` with two rows.
+The first row should be the `Dynamic` updated result.
+The second row should be the buttons we created.
 
---- /hint---
---- hint ---
-Give your `Manipulate` buttons a name, like "Number of Rolls".
---- /hint---
-
-`--- hint ---``
-
-Manipulate[
- Grid[{RandomChoice[{one, two, three, four, five, six}, i]}], {{i, 1, 
-   "Number of Rolls"}, 1, 6, 1, ControlType -> RadioButton}]
 ```
---- /hint---
-
----/hints---
+Grid[
+ {
+  {dice = one;
+   Button["Roll the Dice", 
+    dice = RandomChoice[diceOptions]],
+    
+   coin = heads;
+   Button["Flip the Coin", 
+    coin = RandomChoice[coinOptions]]
+   },
+  
+  {Dynamic[dice], Dynamic[coin]}
+  }
+ ]
+ ```
+--- /task ---
