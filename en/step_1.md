@@ -6,7 +6,9 @@ In this project, you are going to make an automatic coin flipper and a dice roll
 
 
 --- print-only ---
-![Complete project](images/Complete.png)
+
+![Complete project](images/Complete1.png)
+
 --- /print-only ---
 
 --- collapse ---

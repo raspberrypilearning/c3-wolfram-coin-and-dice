@@ -7,14 +7,15 @@ If you are using Wolfram in the desktop application, skip this step and go to 'M
 We will build the dice roller in the same way we built the coin flipper.
 
 ---task---
-First, we'll need images for each side of the die. You can use these images by copy/pasting them in to your notebook.
 
-![Dice 1](images/dice1.png)
-![Dice 2](images/dice2.png)
-![Dice 3](images/dice3.png)
-![Dice 4](images/dice4.png)
-![Dice 5](images/dice5.png)
-![Dice 6](images/dice6.png)
+First, we'll need images for each side of the die. Right click on each of these images and save them to your desktop. Drag the images from your desktop into your notebook.
+
+![Dice 1](images/Dice1.png)
+![Dice 2](images/Dice2.png)
+![Dice 3](images/Dice3.png)
+![Dice 4](images/Dice4.png)
+![Dice 5](images/Dice5.png)
+![Dice 6](images/Dice6.png)
 
 Assign each image to a variable name: `one`, `two`, `three`, `four`, `five`, `six`.
 Put the variables into a list, and assign the list to the variable name `diceOptions`.

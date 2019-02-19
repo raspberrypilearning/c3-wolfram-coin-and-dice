@@ -3,32 +3,30 @@
 First, we will be building the coin flipper. The coin flipper is fairly simple: we want to be able to press a button and randomly return either heads or tails.
 
 --- task ---
-First, we'll need images of both heads and tails. You can use these images by dragging them in to your notebook, or you could find other images, maybe in a different currency.
 
-![Tails](images/Tail.png)
+First, we'll need images of both heads and tails. Right click on each of these images and save them to your desktop. Drag the images from your desktop into your notebook. If you are using a desktop version of Wolfram, you can drag and drop the images straight into your notebook.
+
+You could also search on the internet for a a different coin, maybe in your home currency.
+
 ![Heads](images/Head.png)
+![Tails](images/Tail.png)
 
-Use `ImageResize` to resize your images so that they are 100 pixel squares.
-
-![Resizing an Image](images/ImageResize.png)
-
-Assign each coin a variable name. `heads` for the head coin, and `tails` for the tail coin.
+Assign each coin a variable name. `heads` for the head coin, and `tails` for the tail coin. Use a `;` after each line to supress the output, otherwise the image of the coin will print whenever you run this code.
 
 ![Set Up](images/setup.png)
+
 --- /task ---
 
 We need a list of the coin options.
 
 Lists start with `{` and end with `}`, and each element is separated by a `,`.
 
-When you run the code for `ImageResize`, the output will be the resized image. Click on the resized image and copy it into your list.
-
 --- task ---
 Make a list which contains your coins.
 
 Assign this list to the variable name `coinOptions`.
 
-![Making a List](images/AssigningVariables.png)
+![Making a List](images/assigningvariables.png)
 
 --- /task ---
 

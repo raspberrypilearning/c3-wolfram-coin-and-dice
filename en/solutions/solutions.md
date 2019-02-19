@@ -40,20 +40,11 @@ diceOptions = {one, two, three, four, five, six}
 ```
 
 ```
-Grid[
- {
-  {dice = one;
-   Button["Roll the Dice", 
-    dice = RandomChoice[diceOptions]],
-    
-   coin = heads;
-   Button["Flip the Coin", 
-    coin = RandomChoice[coinOptions]]
-   },
-  
-  {Dynamic[dice], Dynamic[coin]}
-  }
- ]
+Grid[{{dice = one;
+Button["Roll the Dice",dice = RandomChoice[diceOptions]],
+coin = heads;
+Button["Flip the Coin", coin = RandomChoice[coinOptions]]},
+{Dynamic[dice], Dynamic[coin]}}]
  ```
  
  Challenge

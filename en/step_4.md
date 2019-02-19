@@ -15,19 +15,14 @@ The first row should be the `Dynamic` updated result.
 The second row should be the buttons we created.
 
 ```
-Grid[
- {
-  {dice = one;
-   Button["Roll the Dice", 
-    dice = RandomChoice[diceOptions]],
-    
-   coin = heads;
-   Button["Flip the Coin", 
-    coin = RandomChoice[coinOptions]]
-   },
-  
-  {Dynamic[dice], Dynamic[coin]}
-  }
- ]
+Grid[{{dice = one;
+Button["Roll the Dice",dice = RandomChoice[diceOptions]],
+coin = heads;
+Button["Flip the Coin", coin = RandomChoice[coinOptions]]},
+{Dynamic[dice], Dynamic[coin]}}]
  ```
 --- /task ---
+
+Congratulations, you have built a coin flipper and a dice roller tool!
+
+![Complete project](images/Complete1.png)
