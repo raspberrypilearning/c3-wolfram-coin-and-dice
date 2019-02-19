@@ -1,5 +1,4 @@
-## Making the Die using Wolfram Desktop
-
+## Making the dice
 Now we will build the dice roller.
 
 Each face on a die is made up of nine boxes, and the boxes which correspond to the number are filled in with a circle.
