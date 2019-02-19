@@ -2,10 +2,6 @@
 
 Now we will build the dice roller.
 
-If you are using Wolfram in a web browser, skip this step and go to 'Making the Die using Wolfram in the Browser'.
-
-If you are using Wolfram on a Raspberry Pi, or in the desktop application, you can build the die faces using code.
-
 Each face on a die is made up of nine boxes, and the boxes which correspond to the number are filled in with a circle.
 
 We can construct this using `Grid` and `Graphics`.
@@ -105,4 +101,16 @@ Take the code you wrote to create a button for the coin flipper, and alter it to
 
 ![Dynamic Button Dice](images/ButtonDynamicDice.png)
 
+--- hints ---
+--- hint ---
+Remember that you created a dynamic button for your coin-flipper by creating a button and then marking the `coin` variable as dynamic, like this:
+
+```
+coin = heads;
+Button["Flip Coin", 
+ coin = RandomChoice[coinOptions]]
+Dynamic[coin]
+```
+--- /hint ---
+--- /hints ---
 --- /task ---

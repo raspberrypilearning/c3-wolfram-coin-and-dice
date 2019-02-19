@@ -6,7 +6,7 @@ First, we will be building the coin flipper. The coin flipper is fairly simple: 
 
 First, we'll need images of both heads and tails. Right click on each of these images and save them to your desktop. Drag the images from your desktop into your notebook. If you are using a desktop version of Wolfram, you can drag and drop the images straight into your notebook.
 
-You could also search on the internet for a a different coin, maybe in your home currency.
+You could also search on the internet for a a different coin, maybe in your own currency.
 
 ![Heads](images/Head.png)
 ![Tails](images/Tail.png)
