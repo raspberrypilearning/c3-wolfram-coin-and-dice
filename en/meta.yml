@@ -9,7 +9,6 @@ steps:
   - title: Introduction
   - title: Creating a Coin Flipper
   - title: Making the Die using Wolfram Desktop
-  - title: Making the Die using Wolfram in the Browser
   - title: Building An Interface
-  - title: "Challenge: Build a Manipulate"
+  - title: "Challenge: Impossible dice"
     challenge: true

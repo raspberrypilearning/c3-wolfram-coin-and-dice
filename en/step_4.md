@@ -1,43 +1,34 @@
- ## Making the Die using Wolfram in the Browser
+## Building An Interface
 
-Now we will build the dice roller.
+Now that we have two buttons, one which flips a coin and one which rolls a die, we can combine them into an interface.
+We can construct this using `Grid`.
+Look at this example of `Grid`.
 
-If you are using Wolfram in the desktop application, skip this step and go to 'Making the Die using Wolfram Desktop'.
+![Complete](images/complete.png)
 
-We will build the dice roller in the same way we built the coin flipper.
-
----task---
-First, we'll need images for each side of the die. You can use these images by copy/pasting them in to your notebook.
-
-![Dice 1](images/dice1.png)
-![Dice 2](images/dice2.png)
-![Dice 3](images/dice3.png)
-![Dice 4](images/dice4.png)
-![Dice 5](images/dice5.png)
-![Dice 6](images/dice6.png)
-
-Assign each image to a variable name: `one`, `two`, `three`, `four`, `five`, `six`.
-Put the variables into a list, and assign the list to the variable name `diceOptions`.
-
-```
-diceOptions = {one, two, three, four, five, six}
-```
----/task---
-
-In order to roll the dice, just like we did earlier to create a coin flipper, all we have to do is set up a `RandomChoice` between the six options in the list.
+`Grid` is made up of a list of lists, where each list becomes a row in the grid.
 
 --- task ---
-Use `RandomChoice` to randomly pick one of the sides in the list.
 
+Replace `expression` with your code for the `RandomChoice`. You don't need to include a `Button`.
+
+--- /hint---
+--- hint ---
+
+You should have created a `Manipulate` with a slider to change the number of dice.
+Look in the documentation for `Manipulate` to work out how to change the `Control Type` to a `Radio Button`.
+
+--- /hint---
+--- hint ---
+
+Give your `Manipulate` buttons a name, like "Number of Rolls".
+
+--- /hint---
+
+--- hint ---
 ```
-Grid[{{dice = one;
-Button["Roll the Dice",dice = RandomChoice[diceOptions]],
-coin = heads;
-Button["Flip the Coin", coin = RandomChoice[coinOptions]]},
-{Dynamic[dice], Dynamic[coin]}}]
- ```
---- /task ---
+Manipulate[Grid[{RandomChoice[{one, two, three, four, five, six}, i]}], {{i, 1, "Number of Rolls"}, 1, 6, 1, ControlType -> RadioButton}]
+```
+--- /hint---
 
-Congratulations, you have built a coin flipper and a dice roller tool!
-
-![Complete project](images/Complete1.png)
+---/hints---
