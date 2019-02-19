@@ -1,14 +1,14 @@
-## Challenge: Build a Manipulate
+## Building An Interface
 
-Build a `Manipulate` function which allows the user to roll between 1 and 6 dice at the same time.
+Now that we have two buttons, one which flips a coin and one which rolls a die, we can combine them into an interface.
+We can construct this using `Grid`.
+Look at this example of `Grid`.
 
 ![Complete](images/complete.png)
 
---- hints ---
---- hint ---
-Look up how `Manipulate` is used in the documentation.
+`Grid` is made up of a list of lists, where each list becomes a row in the grid.
 
-```Manipulate[expression,{u,minimum u, maximum u, size of steps}]```
+--- task ---
 
 Replace `expression` with your code for the `RandomChoice`. You don't need to include a `Button`.
 
