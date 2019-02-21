@@ -10,25 +10,19 @@ Look at this example of `Grid`.
 
 --- task ---
 
-Replace `expression` with your code for the `RandomChoice`. You don't need to include a `Button`.
+Make a `Grid` with two rows.
+The first row should be the `Dynamic` updated result.
+The second row should be the buttons we created.
 
---- /hint---
---- hint ---
-
-You should have created a `Manipulate` with a slider to change the number of dice.
-Look in the documentation for `Manipulate` to work out how to change the `Control Type` to a `Radio Button`.
-
---- /hint---
---- hint ---
-
-Give your `Manipulate` buttons a name, like "Number of Rolls".
-
---- /hint---
-
---- hint ---
 ```
-Manipulate[Grid[{RandomChoice[{one, two, three, four, five, six}, i]}], {{i, 1, "Number of Rolls"}, 1, 6, 1, ControlType -> RadioButton}]
-```
---- /hint---
+Grid[{{dice = one;
+Button["Roll the Dice",dice = RandomChoice[diceOptions]],
+coin = heads;
+Button["Flip the Coin", coin = RandomChoice[coinOptions]]},
+{Dynamic[dice], Dynamic[coin]}}]
+ ```
+--- /task ---
 
----/hints---
+Congratulations, you have built a coin flipper and a dice roller tool!
+
+![Complete project](images/Complete1.png)
