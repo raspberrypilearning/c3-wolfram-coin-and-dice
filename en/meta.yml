@@ -1,0 +1,14 @@
+title: Flipping the Coins, Rolling the Dice
+hero_image: images/banner.png
+description:
+version: 4
+listed: false
+copyedit: false
+last_tested: "2018-12-06"
+steps:
+  - title: Introduction
+  - title: Creating a Coin Flipper
+  - title: Making the Die using Wolfram Desktop
+  - title: Building An Interface
+  - title: "Challenge: Impossible dice"
+    challenge: true
