@@ -1,6 +1,6 @@
 ## Introduction
 
-In this project, you will make an automatic coin flipper and a dice roller. You will work with graphics, interactivity, and randomness.
+In this project, you will make coin flipper and a dice roller. You will work with graphics, interactivity, and randomness.
 
 ### What you will make
 
