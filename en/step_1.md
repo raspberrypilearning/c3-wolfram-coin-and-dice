@@ -1,6 +1,6 @@
 ## Introduction
 
-In this project, you are going to make an automatic coin flipper and a dice roller. You'll be working with graphics, interactivity and randomness.
+In this project, you will make an automatic coin flipper and a dice roller. You will work with graphics, interactivity, and randomness.
 
 ### What you will make
 
@@ -30,11 +30,11 @@ title: What you will need
 title: What you will learn
 ---
 
-+ Choosing items randomly from a list
-+ Creating graphics in the Wolfram Langauge
-+ Using `Manipulate` in the Wolfram Language
++ How to choose items randomly from a list
++ How to create graphics in the Wolfram Langauge
++ How to use `Manipulate` in the Wolfram Language
 
-If you have never used the Wolfram Language before, follow [this guide](https://projects.raspberrypi.org/en/projects/getting-started-with-mathematica). You'll need to look at Starting Mathematica and Programming in Mathematica.
+If you have never used the Wolfram Language before, follow [this guide](https://projects.raspberrypi.org/en/projects/getting-started-with-mathematica). You will need to look at 'Starting Mathematica' and 'Programming in Mathematica'.
 
 --- /collapse ---
 
