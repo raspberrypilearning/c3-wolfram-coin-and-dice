@@ -1,7 +1,9 @@
-## Building An Interface
+## Build an interface
 
-Now that we have two buttons, one which flips a coin and one which rolls a die, we can combine them into an interface.
-We can construct this using `Grid`.
+Now that you have two buttons, one which flips a coin and one which rolls a die, you can combine them into an interface.
+
+You can use `Grid` to make the interface.
+
 Look at this example of `Grid`.
 
 ![Complete](images/complete.png)
@@ -12,7 +14,7 @@ Look at this example of `Grid`.
 
 Make a `Grid` with two rows.
 The first row should be the `Dynamic` updated result.
-The second row should be the buttons we created.
+The second row should be the buttons you created.
 
 ```
 Grid[{{dice = one;
