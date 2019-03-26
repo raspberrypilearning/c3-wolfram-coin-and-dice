@@ -50,7 +50,7 @@ You might notice that every time you press the button, the new output appears un
 You can use `Dynamic` to do this. `Dynamic` displays the updated value, so every time you press the button and rerun the code, `Dynamic` will display the new value and replace the old value.
 
 --- task ---
-Use `Dynamic` to create a button. 
+Use `Dynamic` to create a button. You can use the following lines of code. 
 
 ```
 coin = heads;
@@ -60,4 +60,4 @@ Dynamic[coin]
 ```
 --- /task ---
 
-Replace your old button with the new one, which uses `Dynamic`.
+Replace your old button with the new Dynamic button.
