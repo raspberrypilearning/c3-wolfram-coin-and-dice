@@ -47,7 +47,7 @@ Button["Flip Coin",
 
 You might notice that every time you press the button, the new output appears underneath the old output. It would be better to replace the old output with the new output when you press the button.
 
-You can use `Dynamic` to do this. `Dynamic` displays the updated value, so each time you rerun the code by pressing the button, `Dynamic` will display the new value and replace the old value.
+You can use `Dynamic` to do this. `Dynamic` displays the updated value, so every time you press the button and rerun the code, `Dynamic` will display the new value and replace the old value.
 
 --- task ---
 Use `Dynamic` to create a button. 
@@ -60,4 +60,4 @@ Dynamic[coin]
 ```
 --- /task ---
 
-Replace your old button with the new Dynamic one.
+Replace your old button with the new one, which uses `Dynamic`.
