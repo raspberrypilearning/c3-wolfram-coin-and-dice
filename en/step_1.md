@@ -32,7 +32,7 @@ title: What you will learn
 
 + How to choose items randomly from a list
 + How to create graphics in the Wolfram Langauge
-+ How to use `Manipulate` in the Wolfram Language
++ How to use `Dynamic` in the Wolfram Language
 
 If you have never used the Wolfram Language before, follow [this guide](https://projects.raspberrypi.org/en/projects/getting-started-with-mathematica). You will need to look at 'Starting Mathematica' and 'Programming in Mathematica'.
 

@@ -13,8 +13,8 @@ Look at this example of `Grid`.
 --- task ---
 
 Make a `Grid` with two rows.
-The first row should be the `Dynamic` updated result.
-The second row should be the buttons you created.
+The first row should be the buttons you created.
+The second row should be the `Dynamic` updated result.
 
 ```
 Grid[{{dice = one;

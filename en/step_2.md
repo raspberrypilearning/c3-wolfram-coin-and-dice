@@ -4,9 +4,9 @@ First, you will build the coin flipper. The coin flipper is fairly simple: you s
 
 --- task ---
 
-First, you need images of both sides of a coin. Right-click on each of these images and save them to your desktop. Drag the images from your desktop into your notebook in Wolfram. If you are using a desktop version of Wolfram, you can drag and drop the images straight into your notebook.
+First, you need images of both sides of a coin. Drag and drop these images into your Wolfram notebook.
 
-You could also search on the internet for images of a different coin, maybe in a different currency.
+You can also search on the internet for images of a different coin, maybe in a different currency.
 
 ![Heads](images/Head.png)
 ![Tails](images/Tail.png)
