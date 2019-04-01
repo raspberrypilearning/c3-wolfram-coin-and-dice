@@ -4,12 +4,7 @@ In this project, you will make a coin flipper and a dice roller. You will work w
 
 ### What you will make
 
-
---- print-only ---
-
 ![Complete project](images/Complete1.png)
-
---- /print-only ---
 
 --- collapse ---
 ---
