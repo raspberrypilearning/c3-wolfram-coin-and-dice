@@ -62,6 +62,6 @@ Button["Flip Coin",
  coin = RandomChoice[coinOptions]]
 Dynamic[coin]
 ```
---- /task ---
 
 Replace your old button with the new Dynamic button.
+--- /task ---
