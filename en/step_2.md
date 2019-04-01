@@ -1,10 +1,14 @@
 ## Create a coin flipper
 
+--- task ---
+If you have never used the Wolfram Language before, follow [this guide to get started](https://projects.raspberrypi.org/en/projects/getting-started-with-mathematica) and learn to use the tool. Look at the sections **Starting Mathematica** and **Programming in Mathematica**.
+--- /task ---
+
 First, you will build the coin flipper. The coin flipper is fairly simple: you should be able to press a button and randomly return either heads or tails.
 
 --- task ---
 
-First, you need images of both sides of a coin. Drag and drop these images into your Wolfram notebook.
+First, you need images of both sides of a coin. Drag and drop the images below into your Wolfram notebook.
 
 You can also search on the internet for images of a different coin, maybe in a different currency.
 
