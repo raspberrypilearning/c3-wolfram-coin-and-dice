@@ -1,28 +1,32 @@
-## Creating a Coin Flipper
+## Create a coin flipper
 
-First, we will be building the coin flipper. The coin flipper is fairly simple: we want to be able to press a button and randomly return either heads or tails.
+--- task ---
+If you have never used the Wolfram Language before, follow [this guide to get started](https://projects.raspberrypi.org/en/projects/getting-started-with-mathematica) and learn to use the tool. Look at the sections **Starting Mathematica** and **Programming in Mathematica**.
+--- /task ---
+
+First, you will build the coin flipper. The coin flipper is fairly simple: you should be able to press a button and randomly return either heads or tails.
 
 --- task ---
 
-First, we'll need images of both heads and tails. Right click on each of these images and save them to your desktop. Drag the images from your desktop into your notebook. If you are using a desktop version of Wolfram, you can drag and drop the images straight into your notebook.
+First, you need images of both sides of a coin. Drag and drop the images below into your Wolfram notebook.
 
-You could also search on the internet for a a different coin, maybe in your own currency.
+You can also search on the internet for images of a different coin, maybe in a different currency.
 
 ![Heads](images/Head.png)
 ![Tails](images/Tail.png)
 
-Assign each coin a variable name. `heads` for the head coin, and `tails` for the tail coin. Use a `;` after each line to supress the output, otherwise the image of the coin will print whenever you run this code.
+Assign each coin a variable name: `heads` for the heads side of the coin, and `tails` for the tails side of the coin. Put a `;` after each line of code to suppress the output, otherwise the image of the coin will print whenever you run this code.
 
 ![Set Up](images/setup.png)
 
 --- /task ---
 
-We need a list of the coin options.
+You need a list of the coin options (heads or tails).
 
 Lists start with `{` and end with `}`, and each element is separated by a `,`.
 
 --- task ---
-Make a list which contains your coins.
+Make a list which contains your coin options.
 
 Assign this list to the variable name `coinOptions`.
 
@@ -30,16 +34,14 @@ Assign this list to the variable name `coinOptions`.
 
 --- /task ---
 
-We want to be able to flip the coin and randomly get either heads or tails. We do this using `RandomChoice`.
+To be able to flip the coin and randomly get either heads or tails, you can use `RandomChoice`.
 
 ```
 RandomChoice[coinOptions]
 ```
 
-It would be useful to have a button for the user to press in order to flip the coin.
-
 --- task ---
-Create a button which randomly outputs either Heads or Tails.
+Now, it would be useful to have a button for the user to press to flip the coin. Use the following lines of code to create a button which randomly outputs either heads or tails.
 
 ```
 Button["Flip Coin", 
@@ -47,12 +49,12 @@ Button["Flip Coin",
 ```
 --- /task ---
 
-You might notice that every time you press the button, the new output appears underneath the old output. It would be better to replace the old output with the new output each time you press the button.
+You might notice that every time you press the button, the new output appears underneath the old output. It would be better to replace the old output with the new output when you press the button.
 
-We do this using `Dynamic`. `Dynamic` displays the updated value, so each time we reevaluate the code by pressing the button, `Dynamic` will update to the new value.
+You can use `Dynamic` to do this. `Dynamic` displays the updated value, so every time you press the button and rerun the code, `Dynamic` will display the new value and replace the old value.
 
 --- task ---
-Use `Dynamic` to create a button. 
+Use `Dynamic` to create a button. You can use the following lines of code. 
 
 ```
 coin = heads;
@@ -60,6 +62,6 @@ Button["Flip Coin",
  coin = RandomChoice[coinOptions]]
 Dynamic[coin]
 ```
---- /task ---
 
-Replace your old button with the new Dynamic one.
+Replace your old button with the new Dynamic button.
+--- /task ---
