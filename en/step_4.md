@@ -6,7 +6,7 @@ You can use `Grid` to make the interface.
 
 Look at this example of `Grid`.
 
-![Complete](images/complete.png)
+![Complete](images/Complete.png)
 
 `Grid` is made up of a list of lists, where each list becomes a row in the grid.
 
